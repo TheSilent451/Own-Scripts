@@ -200,7 +200,7 @@ echo "Running theHarvester On : $ip"
 echo
 echo "This will perform subdomain enumeration for the given domain using theHarvester."
 echo
-theharvester -d $ip -b bing -s > "$theHarvester"
+theHarvester -d $ip -b bing -s > "$theHarvester"
 echo
 
 #Subfinder                                                             
